@@ -2,18 +2,14 @@
 public class GetterAndSetterAgain {
 	public static void main(String[] args) {
 		
-		Product product = new Product();
+		Product product = new Product(1, "Asus", "Asus Laptop", 78.250, 4, "Gri");
 		
 		
-		product.setId(1);
-		product.setName("Laptop");
-		product.setDescription("Asus Laptop");
-		product.setStockAmount(4);
-		product.setColour("Gri");
-		product.setPrice(78.250);
-		product.setCode("789456");
 		
-		System.out.println(product.getCode());
+		
+		ProductManager productManager = new ProductManager();
+		productManager.Add();
+		
 		
 	}
 
