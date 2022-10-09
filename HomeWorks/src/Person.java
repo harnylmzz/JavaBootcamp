@@ -1,9 +1,9 @@
 
-public class Person {
+public class Person extends Customer {
 	
-	int id;
 	String firstName;
 	String lastName;
-	int age;
+	String nationalIdentity;
+
 
 }

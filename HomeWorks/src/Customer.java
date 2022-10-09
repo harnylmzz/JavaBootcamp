@@ -1,6 +1,10 @@
 
-public class Customer extends Person {
+public class Customer {
 	
-	String email;
-
+	int id = 1;
+	String city;
+	
+	
 }
+
+
