@@ -8,9 +8,14 @@ public class Main {
 		{
 			int[] sayilar = new int[] {1,2,3};
 			System.out.println(sayilar[4]);
-		}catch  (Exception exception) {
+		}catch  (StringIndexOutOfBoundsException exception) {
 			System.out.println(exception);
-		}finally {
+		}catch(ArrayIndexOutOfBoundsException exception) {
+			System.out.println(exception);
+		}catch (Exception exception) {
+			System.out.println("Loglandı" +exception);
+		}
+		finally {
 			System.out.println("Ben calisirim.");
 			
 		}
